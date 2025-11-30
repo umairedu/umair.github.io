@@ -28,7 +28,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#personal-projects">Personal Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
                     <li class="nav-item">
@@ -50,13 +51,10 @@
                          (+92) 312-2377428 ·
                         <a href="mailto:umairedu@gmail.com">umairedu@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I'm a DevOps Engineer with hands-on experience building, deploying, and troubleshooting real production systems across AWS, Kubernetes, Terraform, and CI/CD pipelines.
-
-                        Along the way, I've learned that real DevOps work is not about knowing tools it's about surviving incidents, maintaining uptime during failures, and enabling teams to ship features safely without breaking production.
-
-                        I've architected infrastructure that maintains high availability during peak traffic, reduced cloud costs and led zero-downtime migrations.
-
-                        I'm currently working as a Lead DevOps Engineer in SchoolVoice, where I focus on building systems that stay healthy during peak traffic and failures.</p>
+                    <p class="lead mb-5">I am a Senior DevOps Engineer with over a decade of experience. I excel at building resilient, secure, and cost-effective cloud infrastructures. I have a proven track record of optimizing cloud spend, achieving 99.9% uptime, and enhancing system security.
+                        <br>
+                        <br>
+                        I led the AWS Well Architected Framework review, earning official AWS certification for the platform. I built cost-efficient Kubernetes-based AWS infrastructure with strong observability and security. I also set up a PCI-DSS compliant fintech platform on DigitalOcean using Kubernetes and Istio. Implementing Istio service mesh with mTLS significantly cut security risks. I standardized deployments with reusable Helm charts, reducing errors and speeding up rollbacks. My monitoring solutions with Prometheus and Grafana, coupled with anomaly detection, support high uptime. I automated AWS cost optimization, cutting cloud spend by 25%.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/umairkh/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/umairedu"><i class="fab fa-github"></i></a>
@@ -76,8 +74,6 @@
                                 <li>Led and executed the AWS Well Architected Framework review, enabling the platform to earn official AWS Well Architected certification for security, reliability, performance, and cost-optimized architecture.</li>
                                 <li>Designed Kubernetes infrastructure with Spot and On-Demand node groups that reduced cloud costs while maintaining high availability during node failures and traffic spikes.</li>
                                 <li>Built comprehensive observability stack using Prometheus, Grafana, and AlertManager with custom webhook integrations for Slack notifications and automated playbook execution to reducing mean time to resolution (MTTR).</li>
-                                <li>Led zero-downtime AWS infrastructure migration across regions, maintaining 100% service availability and zero customer impact during the transition.</li>
-                                <li>Standardized deployments across 27+ microservices with a generic Helm chart, reducing deployment time from hours to minutes and eliminating configuration drift between environments.</li>
                                 <li>Configured Oathkeeper to validate JWT tokens, extract user information from token payloads, and pass authenticated user context to downstream services.</li>
                                 <li>Built real time data replication pipeline from AWS RDS Aurora to OpenSearch using Kafka and Debezium.</li>
                             </ul>
@@ -91,12 +87,8 @@
                             <div class="subheading mb-3">VentureDive</div>
                             <ul>
                                 <li>Onboarded a fintech project from scratch on DigitalOcean using Kubernetes and Istio, designing infrastructure patterns that enabled the platform to pass PCI DSS compliance.</li>
-                                <li>Designed and deployed multi-cloud Kubernetes clusters on AWS and DigitalOcean with automated failover, maintaining 99.95% uptime during regional outages and traffic surges.</li>
                                 <li>Implemented Istio service mesh across microservices, reducing security vulnerabilities by 70% through mTLS encryption and centralized policy enforcement, while maintaining sub-100ms latency overhead.</li>
                                 <li>Standardized Kubernetes deployments across 15+ projects using reusable Helm charts, reducing deployment errors by 80% and enabling consistent rollback capabilities.</li>
-                                <li>Designed and maintained CI/CD pipelines for Jenkins, GitLab, Bitbucket, and Travis CI that enabled safe feature deployments without production incidents, reducing rollback frequency by 65%.</li>
-                                <li>Implemented GitOps workflows using Flux and ArgoCD across multiple projects, automating deployments and eliminating manual configuration drift, reducing deployment time by 75%.</li>
-                                <li>Created reusable Terraform and Terragrunt modules for AWS and DigitalOcean, enabling reproducible infrastructure provisioning across Dev, QA, and Prod environments in minutes instead of days.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2019 - Nov 2021</span></div>
@@ -110,12 +102,10 @@
                             <h3 class="mb-0">Sr. DevOps Engineer</h3>
                             <div class="subheading mb-3">Careem</div>
                             <ul>
-                                <li>Designed and maintained CI/CD pipelines on Jenkins that enabled safe service deployments.</li>
-                                <li>Built comprehensive monitoring framework using Prometheus, Grafana, and custom exporters, reducing mean time to detect (MTTD) production issues.</li>
+                                <li>Designed and maintained CI/CD pipelines on Jenkins that enabled safe service deployments. Built comprehensive monitoring framework using Prometheus, Grafana, and custom exporters, reducing mean time to detect (MTTD) production issues.</li>
                                 <li>Implemented proactive alerting using Prometheus standard deviation functions, enabling early detection of anomalies before they impacted users and maintaining 99.9% service availability.</li>
                                 <li>Automated AWS infrastructure cost optimization using Python scripts, identifying and removing orphan resources that reduced monthly cloud spend by 25% without impacting service performance.</li>
                                 <li>Automated blue-green deployments using Python scripts that provisioned Elastic Beanstalk via Terraform, monitored CloudWatch metrics, and sent Slack notifications, enabling data-driven deployment decisions and reducing rollback time from hours to minutes.</li>
-                                <li>Integrated Slack with monitoring platform using Python, enabling real-time alert escalation to relevant teams and reducing incident response time.</li>
                             </ul>
 
                         </div>
@@ -127,13 +117,8 @@
                             <div class="subheading mb-3">Right Solution</div>
                             <ul>
                                 <li>Designed and maintained AWS infrastructure including EC2, RDS, VPC, and auto-scaling groups, ensuring high availability and cost optimization for production workloads.</li>
-                                <li>Deployed and maintained 3-node Proxmox VE high-availability cluster with Ceph storage replication, achieving zero-downtime VM failover capabilities.</li>
+                                <li>Deployed and maintained 3-node Proxmox VE high-availability cluster with Ceph storage replication, achieving zero- downtime VM failover capabilities.</li>
                                 <li>Designed and implemented high-traffic Linux web infrastructure using Nginx, Apache, and Varnish with Nginx Plus load balancing, supporting millions of requests per day.</li>
-                                <li>Built comprehensive monitoring infrastructure using Nagios with NRPE checks for HTTP, MySQL, CPU, memory, and database replication health, reducing incident detection time.</li>
-                                <li>Automated database and EBS backup workflows with weekly scheduled backups, ensuring data recovery capabilities and meeting RPO requirements.</li>
-                                <li>Implemented automated deployment pipelines using Git server with commit-triggered deployments, reducing manual deployment errors and deployment time.</li>
-                                <li>Configured AWS VPC architecture for secure server clustering and internal connectivity, implementing network segmentation and security best practices.</li>
-                                <li>Maintained 24x7 production environment with incident handling, automated monitoring, and extensive bash scripting for system automation and alerting.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Dec 2013 - Jan 2017</span></div>
@@ -145,92 +130,18 @@
                             <h3 class="mb-0">Sr. System Administrator</h3>
                             <div class="subheading mb-3">ARPATECH</div>
                             <ul>
-                                <li>Maintained 24x7 web infrastructure with multiple websites and redundant servers, ensuring high availability and zero-downtime deployments for production environments.</li>
                                 <li>Deployed and managed VMware ESX environments across local and remote data centers with automated VM backup using GhetoVCB, ensuring disaster recovery capabilities.</li>
-                                <li>Designed and implemented MySQL Master-Slave replication with SSL integration, providing high availability and data redundancy for critical CRM databases.</li>
                                 <li>Configured Varnish with Nginx load balancing and auto-failover, improving website performance and maintaining service availability during server failures.</li>
-                                <li>Built comprehensive monitoring infrastructure using Nagios with custom scripts for Java servers, MySQL health, VMware backups, and application monitoring.</li>
                                 <li>Automated infrastructure management using VMware PowerCLi scripts for VM reporting, Mikrotik scripts for firewall management, and bash scripts for remote deployments.</li>
-                                <li>Implemented centralized LDAP authentication and VPN server with LDAP/PAM integration, enabling secure remote access and unified identity management.</li>
-                                <li>Established disaster recovery and backup policies with NFS-based remote backups across multiple locations, ensuring business continuity.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Nov 2011 - Dec 2013</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Network Engineer</h3>
-                            <div class="subheading mb-3">SevenIT</div>
-                            <ul>
-                                <li>Deployed and administered Asterisk VoIP infrastructure with PSTN gateway integration, enabling enterprise-grade telephony services with call recording, conferencing, and voicemail capabilities.</li>
-                                <li>Connected multi-site PBX infrastructure linking office locations to Sydney office via Quintum Gateway, enabling seamless inter-office communication and cost reduction.</li>
-                                <li>Designed and implemented MySQL Master-Master and Master-Slave replication for CRM databases, ensuring high availability and data redundancy.</li>
-                                <li>Configured pfSense firewall for WAN load balancing, improving network reliability and bandwidth utilization across multiple internet connections.</li>
-                                <li>Deployed Active Directory for centralized authentication with automated backup scripts for critical data to remote drives, ensuring data protection.</li>
-                                <li>Built comprehensive infrastructure including Squid transparent proxy, Samba file server, internal mail server, and Nagios monitoring, supporting enterprise IT operations.</li>
-                                <li>Automated daily backup workflows for local and production environments using custom scripts, ensuring data recovery capabilities and meeting backup requirements.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Feb 2010 - Oct 2011 </span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Network Engineer</h3>
-                            <div class="subheading mb-3">PixSense</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2007 - 2010</span></div>
-                    </div>
-
+                    
                 </div>
             </section>
             <hr class="m-0" />
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-1">Certifications</h2>
-                    <ul class="fa-ul">
-                        <li>
-                            <i class="fa-li fa fa-trophy text-warning"></i>
-                            <a target="_blank" href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/231a3e4d-e08f-4fd9-92cd-e08b35d2990a-umair-khan-49560095-0084-42a7-b0d5-9e5f3a2684b3-certificate.pdf">
-                                CKA: Certified Kubernetes Administrator
-                            </a>
-                        </li>
-                        <li>
-                            <i class="fa-li fa fa-trophy text-warning"></i>
-                            <a target="_blank" href="https://www.credly.com/badges/2a7a36d7-06a5-41b1-95de-2ba4c9737f36/public_url">
-                                CCNA: Cisco Certified Network Associate Routing and Switching
-                            </a>
-                        </li>
-
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            CXFF: Cisco Express Foundation for Field Engineers
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            RHCE: Red Hat Certified Engineer (Training)
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-1">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Preston University</h3>
-                            <div class="subheading mb-1">B.S. Computer Science</div>
-                        </div>
-                        <!-- <div class="flex-shrink-0"><span class="text-primary">Sep 2002 - Aug 2006</span></div> -->
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h1 class="mb-2">Skills</h1>
@@ -332,6 +243,84 @@
                 </div>
 
             </section>
+            <section class="resume-section" id="personal-projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-1">Personal Projects</h2>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://github.com/umairedu/kube-right-sizer">
+                                Built an automated Kubernetes resource optimization tool that recommends deployment resource requests and limits based on historical usage patterns
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/umairedu/prometheus-intelligent-alert-response">
+                                Built a tool that not only sends alerts but also automatically executes playbooks to gather investigation data and sends it to AI for analysis, helping to reduce MTTR.
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/umairedu/argocd-slack-bot">
+                                Developed Slack bot that enables teams to trigger ArgoCD deployments, rollbacks, and logs using Slack commands.
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/umairedu/boilerplate-aws-terragrunt">
+                                Boilerplate for deploying AWS infrastructure and applications using Helm and ArgoCD
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/umairedu/devsecops-demo">
+                                Developed a demo pipeline in GitHub Actions highlighting testing, security, quality checks, and Docker builds.
+                            </a>
+                        </li>              
+                    </ul>
+                </div>
+            </section>
+            <section class="resume-section" id="certifications">
+                <div class="resume-section-content">
+                    <h2 class="mb-1">Certifications</h2>
+                    <ul class="fa-ul">
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <a target="_blank" href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/231a3e4d-e08f-4fd9-92cd-e08b35d2990a-umair-khan-49560095-0084-42a7-b0d5-9e5f3a2684b3-certificate.pdf">
+                                CKA: Certified Kubernetes Administrator
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <a target="_blank" href="https://www.credly.com/badges/2a7a36d7-06a5-41b1-95de-2ba4c9737f36/public_url">
+                                CCNA: Cisco Certified Network Associate Routing and Switching
+                            </a>
+                        </li>
+
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            CXFF: Cisco Express Foundation for Field Engineers
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            RHCE: Red Hat Certified Engineer (Training)
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-1">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Preston University</h3>
+                            <div class="subheading mb-1">B.S. Computer Science</div>
+                        </div>
+                        <!-- <div class="flex-shrink-0"><span class="text-primary">Sep 2002 - Aug 2006</span></div> -->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+
+            
             <hr class="m-0" />
             <!-- Interests-->
             <!-- <section class="resume-section" id="interests">
